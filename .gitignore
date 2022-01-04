@@ -1,3 +1,3 @@
 *.exe
-강사용/
-학습자용/
+강사용/.ipynb_checkpoints
+학습자용/.ipynb_checkpoints
