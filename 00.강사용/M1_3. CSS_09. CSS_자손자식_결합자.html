@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title> CSS 자손/자식 결합자의 연결(체이닝) </title>
+	</head>
+	<style>
+		.korean div > li {color:red; }
+	</style>
+	<body>
+		<ul class = "korean">
+			<li> 비빔밥 </li>
+			<li> 불고기 </li>
+			<div class = "side">
+				<li> 김치 </li>
+				<li> 깍두기 </li>
+			</div>
+			<div> 밥 </div>
+			<div> 식혜 </div>
+		</ul>
+		<ul class = "western">
+			<li> 스테이크 </li>
+			<li> 햄버거 </li>
+		</ul>
+	</body>
+</html>

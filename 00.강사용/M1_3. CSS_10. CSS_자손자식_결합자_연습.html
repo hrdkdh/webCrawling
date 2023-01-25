@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> CSS 자손/자식 결합자의 연결(체이닝) </title>
+	</head>
+	<style>
+		#menu_korean div > span {color:blue; }
+	</style>
+	<body>
+		<div id = "menu_korean">
+			<p> 한식 : 제공가능 </p>
+			<ul>
+				<li> 비빔밥 </li>
+				<li> 불고기 + 반찬 </li>
+				<ul class = "side_dishes">
+					<li>
+						<span> 김치 </span>, <span> 깍두기 </span>
+						<div>
+							<span> 시금치 </span>, <span> 참나물 무침 </span>
+						</div>
+					</li>
+				</ul>
+			</ul>
+		</div>
+		<div id = "menu_western">
+			<p> 양식 : 준비중 </p>
+		</div>
+	</body>
+</html>
